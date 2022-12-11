@@ -7,6 +7,10 @@ module.exports = {
       name: '✨ feat（新功能）'
     },
     {
+      value: '✨ delete',
+      name: '✨ delete（删除多余文件）'
+    },
+    {
       value: '✨ merge',
       name: '✨ merge（合并冲突）'
     },
