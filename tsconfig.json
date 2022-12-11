@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "removeComments": true,//编译去除注释
+    "noEmit": true,
+    "baseUrl": "./",
+    "paths":{
+      "@/*":["packages/*"],
+    },
+  },
+  "declaration":true,
+  "include": ["client/**/*.ts", "client/**/*.d.ts", "client/**/*.tsx", "client/**/*.vue","auto-imports.d.ts","*.d.ts","./packages/**/*.ts","./packages/**/*.vue"],
+  "exclude": ["node_moduls/**"],
+  "references": [{ "path": "./tsconfig.node.json" }],
+}

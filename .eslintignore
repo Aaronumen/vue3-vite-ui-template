@@ -1,0 +1,6 @@
+node_modules
+auto-imports.d.ts
+/components.d.ts
+dist
+.eslintrc.js
+vite.config.ts
