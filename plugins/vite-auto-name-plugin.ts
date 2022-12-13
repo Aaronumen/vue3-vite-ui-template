@@ -21,6 +21,8 @@ export default function setupName(): Plugin {
       //只处理vue结尾的文件
       if (/.vue$/.test(id)) {
         const { descriptor } = parse(code)
+        const { script, scriptSetup } = descriptor
+        if (script || scriptSetup === null) return
         // console.log("descriptor: ", descriptor)
         const result = compileScript(descriptor, { id })
         //attrs 此时就是一个对象

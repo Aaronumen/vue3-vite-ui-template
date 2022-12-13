@@ -9,7 +9,7 @@ hero:
   text: 一个Vue3组件库
   tagline: 从0到1搭建一个组件库
   image:
-    src: /logo.png
+    src: /logo.jpg
     alt: Notel
   actions:
     - theme: brand
