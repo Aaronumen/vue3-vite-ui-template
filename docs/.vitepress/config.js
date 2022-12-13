@@ -1,6 +1,10 @@
 export default {
   base:'/notel-ui-doc/', //当部署不为根目录时必须加上此路径名，比如 github部署时项目名为notel-ui-doc，必须设置此base
   themeConfig: {
+    algolia: {
+      apiKey: 'your_api_key',
+      indexName: 'index_name'
+    },
     siteTitle: false,
     logo: "/logo.png",
     nav: [
