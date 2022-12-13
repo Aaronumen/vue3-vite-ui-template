@@ -14,10 +14,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /guide/
+      link: /guide/quickstart
     - theme: alt
       text: 在 Github 上查看
-      link:
+      link: https://github.com/Aaronumen/vue3-vite-ui-template
 
 features:
   - icon: 💡

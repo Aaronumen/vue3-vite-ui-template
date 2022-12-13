@@ -27,15 +27,6 @@ export default {
             },
           ],
         },
-        {
-          text: "进阶",
-          items: [
-            {
-              text: "xx",
-              link: "/xx",
-            },
-          ],
-        },
       ],
       "/examples/": [
         {
@@ -57,7 +48,7 @@ export default {
         },
       ],
     },
-  },
+  }
 }
 
 
